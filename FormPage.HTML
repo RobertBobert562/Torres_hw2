@@ -1,0 +1,62 @@
+<head>
+    <title> Form Page </title>
+    <link href="Styles.css"
+        type="text/css"
+        rel="stylesheet">
+</head>
+
+<a href="index.html">Introductory Page</a>
+
+<h2>Heading 2</h2>
+<h4>Heading 4</h4>
+
+<form action="/action_page.php">
+    <label for="fname">text input:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">text input for Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+</form>
+
+<label for="pwd">Password:</label>
+<input type="password" id="pwd" name="pwd">
+
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+
+<br>
+
+<input type="radio" name="gender" value="male"> option 1
+<input type="radio" name="gender" value="female"> option 2
+
+<br>
+
+<input type="radio" name="gender" value="male"> A+
+<input type="radio" name="gender" value="female"> or normal A?
+
+<br>
+
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> this is a checkbox</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
+
+<br>
+
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars" multiple>
+  <option value="volvo">this</option>
+  <option value="saab">is</option>
+  <option value="opel">a</option>
+  <option value="audi">Multiple select box </option>
+</select>
+
+<br>
+
+<label for="birthday">Date Input:</label>
+<input type="date" id="birthday" name="birthday">
+
+<br>
+<input type="submit" value="Submit">
